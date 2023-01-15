@@ -1,10 +1,8 @@
 package com.client.client.database;
 
+import Entidade.Contato;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import Entidade.Contato;
+public interface RepositorioContato extends JpaRepository<Contato, Long> {
 
-
-public interface RepositorioContato extends JpaRepository <Contato,Long> {
-    
 }
